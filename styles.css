@@ -52,6 +52,12 @@ h3 {
 button {
   background-color: #3F3244;
   color: #FFF;
+  display: block;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px;
+  width: 400px;
 }
 
 @media screen and (max-width: 1203px) {
@@ -61,6 +67,7 @@ button {
 }
 
 @media screen and (max-width: 900px) {
+
   .line {
     width: 55%;
   }
@@ -86,6 +93,10 @@ button {
 
   h3 {
     font-size: 18px;
+  }
+
+  button {
+    width: 90%;
   }
 
   .line {
