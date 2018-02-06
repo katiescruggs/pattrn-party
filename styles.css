@@ -27,14 +27,26 @@ h2 {
   color: #34D1D1;
 }
 
-h3, hr {
-  display: inline-block;
+main {
+  padding: 30px 75px;
+}
+
+.subheading {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+h3 {
+  font-size: 22px;
 }
 
 .line {
-  background-color: magenta;
-  height: 1px;
-  width: 1000px;
+  background-color: #F2F2F2;
+  height: 2px;
+  margin-left: 30px;
+  width: 80%;
 }
 
 button {
