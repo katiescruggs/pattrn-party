@@ -14,7 +14,7 @@ header {
   padding: 10px 75px;
 }
 
-.heading-hr {
+.heading-line {
   display: none;
 }
 
@@ -29,6 +29,12 @@ h2 {
 
 h3, hr {
   display: inline-block;
+}
+
+.line {
+  background-color: magenta;
+  height: 1px;
+  width: 1000px;
 }
 
 button {
@@ -46,10 +52,10 @@ button {
     font-size: 14px;
   }
 
-  .heading-hr {
-    border: 0.5px solid #D1D2D3;
-    color: #D1D2D3;
+  .heading-line {
+    background-color: #666666;
     display: block;
+    height: 1px;
     margin: 10px 0;
     width: 75px;
   }
