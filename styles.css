@@ -54,7 +54,19 @@ button {
   color: #FFF;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1203px) {
+  .line {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .line {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 618px) {
   header {
     flex-direction: column;
     padding: 10px;
@@ -62,6 +74,24 @@ button {
 
   h2 {
     font-size: 14px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  .subheading {
+    flex-direction: column;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .line {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 75px;
   }
 
   .heading-line {
