@@ -14,7 +14,7 @@ header {
   padding: 10px 75px;
 }
 
-.heading-hr {
+.heading-line {
   display: none;
 }
 
@@ -27,8 +27,26 @@ h2 {
   color: #34D1D1;
 }
 
-h3, hr {
-  display: inline-block;
+main {
+  padding: 30px 75px;
+}
+
+.subheading {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+.line {
+  background-color: #F2F2F2;
+  height: 2px;
+  margin-left: 30px;
+  width: 80%;
 }
 
 button {
@@ -36,7 +54,19 @@ button {
   color: #FFF;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1203px) {
+  .line {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .line {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 618px) {
   header {
     flex-direction: column;
     padding: 10px;
@@ -46,10 +76,28 @@ button {
     font-size: 14px;
   }
 
-  .heading-hr {
-    border: 0.5px solid #D1D2D3;
-    color: #D1D2D3;
+  main {
+    padding: 10px;
+  }
+
+  .subheading {
+    flex-direction: column;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .line {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 75px;
+  }
+
+  .heading-line {
+    background-color: #666666;
     display: block;
+    height: 1px;
     margin: 10px 0;
     width: 75px;
   }
