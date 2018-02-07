@@ -10,7 +10,6 @@ $('.tab').on('click', function () {
   $('.content').removeClass('active-content');
 
   $(this).addClass('active-tab');
-  console.log($(this).find('i'));
   $(this).find('i').removeClass('fa-plus').addClass('fa-minus');
   $(this).siblings('.content').addClass('active-content');
 

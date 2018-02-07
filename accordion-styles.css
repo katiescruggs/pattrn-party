@@ -66,6 +66,7 @@ i {
 
 .content-img {
   align-self: center;
+  margin-right: 20px;
   width: 350px;
 }
 
@@ -113,6 +114,7 @@ i {
   .accordion {
     border: 1px solid #D1D2D3;
     flex-direction: column;
+    margin-top: 15px;
   }
 
   #accordion-btn {
