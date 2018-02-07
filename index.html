@@ -4,6 +4,7 @@
     <title>Pattrn Party</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="accordion-styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -25,7 +26,37 @@
           <div class="line"></div>
         </div>
 
-        <button>VIEW CODE</button>
+        <div class="accordion">
+          <div id="0" class="panel">
+            <button class="tab first-tab">Tab 1</button>
+            <div class="content">
+              Content 1
+            </div>
+          </div>
+
+          <div id="1" class="panel">
+            <button class="tab">Tab 2</button>
+            <div class="content">
+              Content 2
+            </div>
+          </div>
+
+          <div id="2" class="panel">
+            <button class="tab">Tab 3</button>
+            <div class="content">
+              Content 3
+            </div>
+          </div>
+
+          <div id="3" class="panel">
+            <button class="tab last-tab">Tab 4</button>
+            <div class="content">
+              Content 4
+            </div>
+          </div>
+        </div>
+
+        <button id="accordion-btn" class="view">VIEW CODE</button>
       </section>
 
       <section class="cards-section">
@@ -36,7 +67,7 @@
           <div class="line"></div>
         </div>
 
-        <button>VIEW CODE</button>
+        <button class="view">VIEW CODE</button>
       </section>
 
       <section class="header-section">
@@ -47,8 +78,10 @@
           <div class="line"></div>
         </div>
 
-        <button>VIEW CODE</button>
+        <button class="view">VIEW CODE</button>
       </section>
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="accordion.js"></script>
   </body>
 </html>
