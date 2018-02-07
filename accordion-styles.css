@@ -1,0 +1,67 @@
+.accordion {
+  display: flex;
+  margin: 50px auto;
+  position: relative;
+  width: 90%;
+}
+
+.panel {
+  width: 25%;
+}
+
+.tab {
+  background-color: #F2F2F2;
+  border: 0.5px solid white;
+  border-top: 1px solid #F2F2F2;
+  border-bottom: 1px solid #D1D2D3;
+  color: #666666;
+  cursor: pointer;
+  font-size: 20px;
+  outline: none;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.tab.active-tab {
+  background-color: #FFF;
+  border: 1px solid #D1D2D3;
+  border-bottom: 1px solid #FFF;
+  font-weight: bold;
+}
+
+.content {
+  display: none;
+}
+
+.active-content {
+  border: 1px solid #D1D2D3;
+  border-top: none;
+  display: block;
+  height: 475px;
+  padding: 10px;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  width: 100%;
+}
+
+.first-tab {
+  border-left: 1px solid #F2F2F2;
+}
+
+.last-tab {
+  border-right: 1px solid #F2F2F2;
+}
+
+.hide-right {
+  border-right: none;
+}
+
+.hide-left {
+  border-left: none;
+}
+
+#accordion-btn {
+  margin-top: 500px;
+}
