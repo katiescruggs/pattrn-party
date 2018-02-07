@@ -8,7 +8,7 @@
 header {
   align-items: center;
   background-color: #2F2235;
-  color: #FFF;
+  color: #F2F2F2;
   display: flex;
   justify-content: space-between;
   padding: 10px 75px;
@@ -43,15 +43,15 @@ h3 {
 }
 
 .line {
-  background-color: #F2F2F2;
-  height: 2px;
+  background-color: #D1D2D3;
+  height: 1px;
   margin-left: 30px;
   width: 80%;
 }
 
-button {
+.view {
   background-color: #3F3244;
-  color: #FFF;
+  color: #F2F2F2;
   display: block;
   font-size: 20px;
   margin: 0 auto;
@@ -95,7 +95,7 @@ button {
     font-size: 18px;
   }
 
-  button {
+  .view {
     width: 90%;
   }
 

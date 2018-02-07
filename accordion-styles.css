@@ -1,0 +1,163 @@
+.accordion {
+  display: flex;
+  margin: 50px auto;
+  position: relative;
+  width: 90%;
+}
+
+.panel {
+  width: 25%;
+}
+
+.tab {
+  background-color: #F2F2F2;
+  border: 0.5px solid white;
+  border-top: 1px solid #F2F2F2;
+  border-bottom: 1px solid #D1D2D3;
+  color: #666666;
+  cursor: pointer;
+  font-size: 20px;
+  outline: none;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.tab.active-tab {
+  background-color: #FFF;
+  border: 1px solid #D1D2D3;
+  border-bottom: 1px solid #FFF;
+  font-weight: bold;
+}
+
+.content {
+  display: none;
+}
+
+i {
+  float: right;
+  padding-top: 5px;
+  padding-right: 10px;
+  visibility: hidden;
+}
+
+.active-content {
+  border: 1px solid #D1D2D3;
+  border-top: none;
+  display: flex;
+  height: 475px;
+  padding: 30px;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  width: 100%;
+}
+
+.content-h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.content-p {
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+.content-img {
+  align-self: center;
+  margin-right: 20px;
+  width: 350px;
+}
+
+.first-tab {
+  border-left: 1px solid #F2F2F2;
+}
+
+.last-tab {
+  border-right: 1px solid #F2F2F2;
+}
+
+.hide-right {
+  border-right: none;
+}
+
+.hide-left {
+  border-left: none;
+}
+
+#accordion-btn {
+  margin-top: 500px;
+}
+
+.content-line {
+  background-color: #D1D2D3;
+  height: 1px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1203px) {
+  .content-h4 {
+    font-size: 20px;
+  }
+  .content-p {
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+
+  .content-img {
+    width: 224px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .accordion {
+    border: 1px solid #D1D2D3;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
+  #accordion-btn {
+    margin-top: 50px;
+  }
+
+  i {
+    visibility: visible;
+  }
+
+  .panel {
+    width: 100%;
+  }
+
+  .tab {
+    border: none;
+    border-bottom: 1px solid white;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .last-tab.tab {
+    border: none;
+  }
+
+  .active-tab.tab {
+    border: none;
+  }
+
+  .content-img {
+    align-self: center;
+  }
+
+  .content-p {
+    font-size: 14px;
+    line-height: 2em;
+  }
+
+  .active-content {
+    border: none;
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+    position: static;
+  }
+}
