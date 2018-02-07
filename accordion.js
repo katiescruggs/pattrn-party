@@ -6,10 +6,12 @@ $(document).ready(function () {
 
 $('.tab').on('click', function () {
   $('.tab').removeClass('active-tab hide-right hide-left');
-  $(this).addClass('active-tab');
-
+  $('i').removeClass('fa-minus').addClass('fa-plus');
   $('.content').removeClass('active-content');
 
+  $(this).addClass('active-tab');
+  console.log($(this).find('i'));
+  $(this).find('i').removeClass('fa-plus').addClass('fa-minus');
   $(this).siblings('.content').addClass('active-content');
 
   let num = $(this).parent().attr('id');
