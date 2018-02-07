@@ -37,13 +37,24 @@
 .active-content {
   border: 1px solid #D1D2D3;
   border-top: none;
-  display: block;
+  display: flex;
   height: 475px;
-  padding: 10px;
+  padding: 30px;
   position: absolute;
-  top: 40px;
+  top: 50px;
   left: 0px;
   width: 100%;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+p {
+  font-size: 22px;
+  margin: 20px;
 }
 
 .first-tab {
@@ -64,4 +75,10 @@
 
 #accordion-btn {
   margin-top: 500px;
+}
+
+.content-line {
+  background-color: #D1D2D3;
+  height: 1px;
+  width: 100%;
 }
