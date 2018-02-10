@@ -1,0 +1,22 @@
+.card-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.card {
+  background-color: midnightblue;
+  color: white;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.small {
+  width: 31.333%;
+}
+
+.big {
+  width: 64.666%;
+}
