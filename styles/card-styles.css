@@ -27,7 +27,8 @@
 }
 
 .card-img {
-  height: 400px;
+  display: block;
+  height: 250px;
   width: 100%;
 }
 
