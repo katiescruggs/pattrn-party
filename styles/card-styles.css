@@ -1,0 +1,48 @@
+.card-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.card {
+  border: 1px solid #D1D2D3;
+  margin: 10px 0;
+}
+
+.small {
+  width: 31.333%;
+}
+
+.big {
+  width: 64.666%;
+}
+
+.card-h4 {
+  border-bottom: 1px solid #D1D2D3;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.card-img {
+  display: block;
+  height: 250px;
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .card-holder {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card-h4 {
+    font-size: 20px;
+    padding: 15px;
+  }
+}
