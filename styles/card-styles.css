@@ -7,10 +7,8 @@
 }
 
 .card {
-  background-color: midnightblue;
-  color: white;
+  border: 1px solid #D1D2D3;
   margin: 10px 0;
-  padding: 10px;
 }
 
 .small {
@@ -19,4 +17,16 @@
 
 .big {
   width: 64.666%;
+}
+
+.card-h4 {
+  border-bottom: 1px solid #D1D2D3;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.card-img {
+  height: 400px;
+  width: 100%;
 }
