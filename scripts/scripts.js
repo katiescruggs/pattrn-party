@@ -1,3 +1,11 @@
 $('#accordion-btn').on('click', () => {
-  window.open('https://codepen.io/katiescruggs/pen/RQaYKa');
+  $('#accordion-codepen').toggle();
+});
+
+$('#card-btn').on('click', () => {
+  $('#card-codepen').toggle();
+});
+
+$('#header-btn').on('click', () => {
+  $('#header-codepen').toggle();
 });
