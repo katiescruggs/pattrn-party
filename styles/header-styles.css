@@ -63,6 +63,10 @@ nav {
   display: none;
 }
 
+.huge-margin {
+  margin-top: 350px;
+}
+
 @media screen and (max-width: 1203px) {
   nav {
     position: relative;
@@ -80,8 +84,10 @@ nav {
   .second-ul {
     align-items: flex-start;
     background-color: #F2F2F2;
+    display: none;
     flex-direction: column;
-    height: 350px;
+    justify-content: space-between;
+    height: 290px;
     padding: 20px;
     position: absolute;
     top: 110px;
