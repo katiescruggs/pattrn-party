@@ -1,5 +1,7 @@
 # Pattrn Party
 
+##Pattrn Party was my first time creating a pattern library of reusable elements for future projects. You can visit the three elements live [here](http://katiescruggs.com/pattrn-party).
+
 ## Three responsive design patterns:
 
 ### Accordion Tabs
