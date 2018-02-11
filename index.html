@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/accordion-styles.css">
     <link rel="stylesheet" href="styles/card-styles.css">
+    <link rel="stylesheet" href="styles/header-styles.css">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
@@ -148,11 +149,38 @@
           <div class="line"></div>
         </div>
 
-        <button class="view">VIEW CODE</button>
+        <nav>
+          <ul class="nav-ul first-ul">
+            <li class="nav-li">
+              <img class="nav-img" src="assets/circle.png" alt="Circle placeholder image">
+            </li>
+            <li class="nav-li menu-li">
+              MENU
+            </li>
+          </ul>
+          <ul class="nav-ul second-ul">
+            <li class="nav-li link-li">
+              Navigation Link 1
+            </li>
+            <li class="nav-li link-li">
+              Navigation Link 2
+            </li>
+            <li class="nav-li link-li">
+              Navigation Link 3
+            </li>
+            <li class="nav-li search-li link-li">
+              <div class="search-icon"></div>
+              <input class="nav-input" type="text" placeholder="Search">
+            </li>
+          </ul>
+        </nav>
+
+        <button id="header-btn" class="view">VIEW CODE</button>
       </section>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="scripts/accordion.js"></script>
+    <script src="scripts/header.js"></script>
     <script src="scripts/scripts.js"></script>
   </body>
 </html>
