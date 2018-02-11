@@ -115,5 +115,9 @@ nav {
   .link-li {
     margin: 20px 0;
   }
+
+  .show {
+    display: flex;
+  }
 }
 
