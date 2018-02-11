@@ -87,7 +87,7 @@ i {
 }
 
 #accordion-btn {
-  margin-top: 500px;
+  margin-top: 550px;
 }
 
 .content-line {
@@ -114,7 +114,6 @@ i {
   .accordion {
     border: 1px solid #D1D2D3;
     flex-direction: column;
-    margin-top: 15px;
   }
 
   #accordion-btn {
