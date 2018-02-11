@@ -1,5 +1,7 @@
 nav {
   background-color: #D1D2D3;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .nav-ul {
@@ -7,13 +9,22 @@ nav {
   display: flex;
   justify-content: space-around;
   padding: 0;
-  height: 75px;
+  height: 130px;
 }
 
 .nav-li {
+  color: #666666;
+  font-size: 22px;
   list-style-type: none;
 }
 
 .nav-img {
-  width: 25px;
+  width: 85px;
+}
+
+.nav-input {
+  background-color: #F2F2F2;
+  border: 1px solid #666666;
+  font-size: 22px;
+  padding: 10px;
 }
