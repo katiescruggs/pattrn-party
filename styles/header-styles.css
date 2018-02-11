@@ -113,6 +113,11 @@ nav {
     margin: 28px 0;
   }
 
+  .nav-input,
+  .search-icon {
+    background-color: #FFF;
+  }
+
   .show {
     display: flex;
   }
