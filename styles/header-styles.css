@@ -107,6 +107,11 @@ nav {
 
   .menu-li {
     display: block;
+    padding: 25px 0;
+  }
+
+  .menu-li:hover {
+    cursor: pointer;
   }
 
   .link-li {
@@ -120,6 +125,11 @@ nav {
 
   .show {
     display: flex;
+  }
+
+  .search-li,
+  .nav-input {
+    width: 100%;
   }
 }
 
