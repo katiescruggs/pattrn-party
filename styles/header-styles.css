@@ -126,5 +126,10 @@ nav {
   .show {
     display: flex;
   }
+
+  .search-li,
+  .nav-input {
+    width: 100%;
+  }
 }
 
